@@ -1,11 +1,24 @@
-import HelloWorld from "./hello-world/hello-world-component" 
-function App(){
+import "./App.css";
+import FlexBoxComponent from "./flex-box/flex-box-component";
+import FlexWrapComponent from "./flex-wrap/flex-wrap-component";
+import HelloWorldComponent from "./hello-world/hello-world-component";
+import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+import PostionComponent from "./positioning/position-component";
+import SymbolOfExcellenceComponent from "./symbol-of-excellence/symbol-of-excellence-component.jsx";
+import TrustedbyComponent from "./trusted-by/trusted-by-component";
 
+function App() {
   return (
-    <>
-     <HelloWorld />
-    </>
-  )
+    <div>
+      <HelloWorldComponent />
+      <FlexBoxComponent />
+      <LeadersTomorrowComponent />
+      <SymbolOfExcellenceComponent />
+      {/* <PostionComponent /> */}
+      <TrustedbyComponent />
+      <FlexWrapComponent />
+    </div>
+  );
 }
 
-export default App
+export default App;
