@@ -1,19 +1,15 @@
 import styled from "styled-components";
-export const HelloWorldStyle = styled.div`
+export const FlexStyle = styled.div`
   .parent {
     display: flex;
-    flex-direction: column;
     background-color: green;
-    //align-items: flex-start;
-    // align-items: center;
-    // align-items: flex-start;
-    //justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    //justify-content: space-evenly;
-    //justify-content: space-between;
-    //  justify-content: space-around;
     gap: 20px;
     height: 100vh;
+    @media (max-width: 920px) {
+      flex-direction: column;
+    }
   }
   .square__child {
     width: 50px;
@@ -25,7 +21,6 @@ export const HelloWorldStyle = styled.div`
     height: 100px;
     background-color: aqua;
     @media (max-width: 900px) {
-      // background-color: yellow;
       display: none;
     }
   }
