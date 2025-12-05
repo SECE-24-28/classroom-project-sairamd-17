@@ -4,6 +4,8 @@ const HelloWorld=()=>{
 return(
     <HelloWorldStyle>
  <h1 className="elements">Hello world </h1>
+ <h1 className="elements">Hello world </h1>
+ <h1 className="elements">Hello world </h1>
  </HelloWorldStyle>
 
 )
