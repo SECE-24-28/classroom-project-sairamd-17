@@ -19,6 +19,7 @@ export const SymbolOfExcellenceStyle = styled.div`
     text-align: center;
     font-weight: 600;
     font-size: 48px;
+    color: rgba(209, 68, 68, 1);
   }
   .para {
     font-size: 20px;

@@ -1,6 +1,8 @@
 import React from "react";
 import { SymbolOfExcellenceStyle } from "./symbol-of-excellence-style";
+import { useParams } from "react-router-dom";
 const SymbolOfExcellenceComponent = () => {
+  const{id} = useParams();
   return (
     <SymbolOfExcellenceStyle>
       <div className="element__one">
@@ -36,6 +38,7 @@ const SymbolOfExcellenceComponent = () => {
           </p>
         </div>
       </div>
+      <h1>id : {id}</h1>
     </SymbolOfExcellenceStyle>
   );
 };

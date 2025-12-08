@@ -6,11 +6,14 @@ export const TrustedByStyle = styled.div`
   h1 {
     text-align: center;
     margin-bottom: 50px;
+    
   }
   .parent {
     display: flex;
     justify-content: space-evenly;
-    // gap: 100px;
+    gap: 40px;
+    flex-wrap:wrap;
+    width:100%;
   }
   .numbers {
     text-align: center;
@@ -29,10 +32,14 @@ export const TrustedByStyle = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1rem;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    width: 230px;
+    width: 250px;
+    background-color:pink;
     height: 200px;
   }
+    .outerchile{
+    
+    }
 `;

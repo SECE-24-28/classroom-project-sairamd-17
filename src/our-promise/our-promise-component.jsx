@@ -16,7 +16,7 @@ const OurPromiseComponent = () => {
                 <div className="item_title"> Top Code Quality
                 </div>
               </div>
-              <div className="element_content"> "Our commitment goes beyond mere code - it encompasses providing solutions. You receive W3C fully compliant markup, without any compromise on quality."
+              <div className="element_content"> "Our commitment goes beyond mere code - it encomhpasses providing solutions. You receive W3C fully compliant markup, without any compromise on quality."
               </div>
              </div>
 
